@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nested Table Challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <table class="b" cellpadding="17">
+        <tr>
+            <td class="b">1</td>
+            <td class="b">2</td>
+        </tr>
+        <tr>
+            <td class="b">3</td>
+            <td style="padding: 0px;">
+                <table cellpadding="17">
+                    <tr>
+                    <td class="a" style="padding: 0px;">
+                        <table cellpadding="17">
+                            <tr>
+                                <td style="background-color: orange;">4</td>
+                                <td style="background-color: orange;">5</td>
+                            </tr>
+                            <tr>
+                                <td style="background-color: orange;">7</td>
+                                <td style="background-color: orange;">8</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td style="background-color: yellow;">
+                        6
+                    </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: yellow;">
+                            9
+                        </td>
+                        <td style="background-color: yellow;">
+                            10
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <!-- Table Two -->
+    <table cellpadding="17">
+        <center>
+        <tr>
+            <td>1</td>
+            <td colspan="3">2</td>
+        </tr>
+        <tr>
+            <td rowspan="3">3</td>
+            <td style="background-color: orange;">4</td>
+            <td style="background-color: orange;">5</td>
+            <td style="background-color: yellow;" colspan="1" rowspan="2">6</td>
+        </tr>
+        <tr>
+            <td style="background-color: orange;">7</td>
+            <td style="background-color: orange;">8</td>
+        </tr>
+        <tr>
+            <td style="background-color: yellow;" colspan="2">9</td>
+            <td style="background-color: yellow;" colspan="1">10</td>
+        </tr>
+        </center>
+    </table>
+</body>
+</html>

@@ -1,0 +1,21 @@
+table{
+    border-collapse: collapse;
+    width: 80%;
+}
+table, th, td{
+    border: 1px solid #666;
+    padding: 6px;
+}
+tr:nth-child(even){
+    background-color: skyblue;
+
+}
+.column{
+   float: left; 
+}
+.left, .right{
+    width: 25%;
+}
+.middle{
+    width: 50%;
+}

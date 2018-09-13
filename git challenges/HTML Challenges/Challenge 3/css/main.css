@@ -1,0 +1,20 @@
+p{
+    word-spacing: 3px;
+}
+.column 
+{
+    float: left;
+}
+
+.left, .right 
+{
+    width: 25%;
+    padding-bottom: 100%; 
+    margin-bottom: -100%;
+
+}
+
+.middle 
+{
+    width: 50%;
+}
