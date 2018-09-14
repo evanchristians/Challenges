@@ -1,0 +1,42 @@
+a{
+    text-decoration: none;
+}
+a:link{
+    color: #444;
+}
+a:visited{
+    color: #444;
+}
+a:active{
+    color: #999;
+}
+a:hover{
+    color: #bada55;
+}
+header{
+    background-color: #fff;
+}
+nav{
+    background-color: #ddd;
+}
+.column{
+    float:left;
+}
+.left, .right{
+    width: 25%;
+}
+.middle{
+    width: 50%;
+}
+
+footer{
+    background-color: #ddd;
+}
+.page{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+body{
+    padding-left: 15%;
+    padding-right: 15%;
+}
